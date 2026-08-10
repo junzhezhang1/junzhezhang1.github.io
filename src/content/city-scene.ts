@@ -1,4 +1,4 @@
-import alignment from "../../city_alignment_output/alignment.json";
+import alignment from "../../public/city/alignment.json";
 import { getCityDestination } from "@/content/city-destinations";
 
 const normalizeAssetPath = (path: string) => path.replaceAll("\\", "/");
@@ -38,3 +38,4 @@ export const cityScene = {
 };
 
 export type CityScene = typeof cityScene;
+
