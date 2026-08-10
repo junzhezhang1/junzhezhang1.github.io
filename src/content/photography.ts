@@ -1,0 +1,58 @@
+import type { Photograph } from "@/types/content";
+
+export const photographs: Photograph[] = [
+  {
+    id: "threshold",
+    title: "Threshold",
+    location: "City study",
+    year: "2026",
+    orientation: "portrait",
+    image: "/images/placeholders/threshold.svg",
+    alt: "Architectural threshold in soft afternoon light",
+  },
+  {
+    id: "after-rain",
+    title: "After Rain",
+    location: "Street study",
+    year: "2026",
+    orientation: "landscape",
+    image: "/images/placeholders/after-rain.svg",
+    alt: "Reflective street surface after rainfall",
+  },
+  {
+    id: "passing-light",
+    title: "Passing Light",
+    location: "Interior study",
+    year: "2025",
+    orientation: "square",
+    image: "/images/placeholders/passing-light.svg",
+    alt: "A geometric patch of window light crossing an interior",
+  },
+  {
+    id: "common-ground",
+    title: "Common Ground",
+    location: "Public space study",
+    year: "2025",
+    orientation: "landscape",
+    image: "/images/placeholders/common-ground.svg",
+    alt: "People moving through a broad public square",
+  },
+  {
+    id: "soft-machine",
+    title: "Soft Machine",
+    location: "Material study",
+    year: "2024",
+    orientation: "portrait",
+    image: "/images/placeholders/soft-machine.svg",
+    alt: "Close detail of an industrial surface with soft shadows",
+  },
+  {
+    id: "distance",
+    title: "Distance",
+    location: "Landscape study",
+    year: "2024",
+    orientation: "landscape",
+    image: "/images/placeholders/distance.svg",
+    alt: "Layered landscape receding into atmospheric haze",
+  },
+];

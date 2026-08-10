@@ -1,0 +1,50 @@
+.page {
+  display: grid;
+  min-height: 100svh;
+  place-items: center;
+  padding: 7rem 1.5rem;
+  color: var(--white);
+  background: var(--ink);
+}
+
+.content {
+  width: min(100%, 680px);
+}
+
+.content > p:first-child {
+  margin: 0 0 1.5rem;
+  color: rgba(245, 242, 233, 0.54);
+  font-size: 0.72rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.content h1 {
+  margin: 0;
+  font-size: clamp(3rem, 8vw, 6.5rem);
+  font-weight: 520;
+  letter-spacing: -0.065em;
+  line-height: 0.92;
+}
+
+.content h1 + p {
+  max-width: 540px;
+  margin: 2rem 0 0;
+  color: rgba(245, 242, 233, 0.68);
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.content a {
+  display: inline-flex;
+  margin-top: 2.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid rgba(245, 242, 233, 0.46);
+  font-size: 0.82rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.content a:focus-visible {
+  outline-color: var(--white);
+}

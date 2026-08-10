@@ -1,0 +1,121 @@
+{
+  "base": {
+    "file": "grid.png",
+    "widthPx": 2948,
+    "heightPx": 1408,
+    "aspectRatio": 2.09375
+  },
+  "coordinateSystem": "Origin is the top-left corner of grid.png. Percentage coordinates are relative to the original grid dimensions.",
+  "assets": [
+    {
+      "id": "1",
+      "sourceFile": "1.png",
+      "assetFile": "aligned_assets/1.png",
+      "cropBoxInOriginal": [
+        1283,
+        5,
+        1733,
+        1290
+      ],
+      "leftPx": 1561.0,
+      "topPx": -40.0,
+      "widthPx": 275,
+      "heightPx": 784,
+      "scale": 0.61,
+      "leftPct": 52.951153,
+      "topPct": -2.840909,
+      "widthPct": 9.328358,
+      "heightPct": 55.681818,
+      "centerXPct": 57.615332,
+      "centerYPct": 25.0
+    },
+    {
+      "id": "2",
+      "sourceFile": "2.png",
+      "assetFile": "aligned_assets/2.png",
+      "cropBoxInOriginal": [
+        1157,
+        108,
+        1958,
+        924
+      ],
+      "leftPx": 1878.0,
+      "topPx": 670.0,
+      "widthPx": 252,
+      "heightPx": 257,
+      "scale": 0.315,
+      "leftPct": 63.704206,
+      "topPct": 47.585227,
+      "widthPct": 8.548168,
+      "heightPct": 18.252841,
+      "centerXPct": 67.97829,
+      "centerYPct": 56.711648
+    },
+    {
+      "id": "3",
+      "sourceFile": "3.png",
+      "assetFile": "aligned_assets/3.png",
+      "cropBoxInOriginal": [
+        953,
+        107,
+        1915,
+        1125
+      ],
+      "leftPx": 2402.0,
+      "topPx": 343.0,
+      "widthPx": 324,
+      "heightPx": 343,
+      "scale": 0.337,
+      "leftPct": 81.478969,
+      "topPct": 24.360795,
+      "widthPct": 10.990502,
+      "heightPct": 24.360795,
+      "centerXPct": 86.97422,
+      "centerYPct": 36.541193
+    },
+    {
+      "id": "4",
+      "sourceFile": "4.png",
+      "assetFile": "aligned_assets/4.png",
+      "cropBoxInOriginal": [
+        1145,
+        180,
+        1892,
+        1254
+      ],
+      "leftPx": 1435.0,
+      "topPx": 845.0,
+      "widthPx": 239,
+      "heightPx": 344,
+      "scale": 0.32,
+      "leftPct": 48.677069,
+      "topPct": 60.014205,
+      "widthPct": 8.107191,
+      "heightPct": 24.431818,
+      "centerXPct": 52.730665,
+      "centerYPct": 72.230114
+    },
+    {
+      "id": "5",
+      "sourceFile": "5.png",
+      "assetFile": "aligned_assets/5.png",
+      "cropBoxInOriginal": [
+        116,
+        74,
+        2402,
+        1626
+      ],
+      "leftPx": 622.0,
+      "topPx": 135.0,
+      "widthPx": 206,
+      "heightPx": 140,
+      "scale": 0.09,
+      "leftPct": 21.09905,
+      "topPct": 9.588068,
+      "widthPct": 6.987788,
+      "heightPct": 9.943182,
+      "centerXPct": 24.592944,
+      "centerYPct": 14.559659
+    }
+  ]
+}

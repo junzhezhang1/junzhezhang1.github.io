@@ -1,0 +1,15 @@
+<svg width="1800" height="1200" viewBox="0 0 1800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1800" y2="1200" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E4D3B8"/><stop offset=".6" stop-color="#8D765B"/><stop offset="1" stop-color="#2B2925"/>
+    </linearGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".8" numOctaves="4" seed="42"/><feBlend in="SourceGraphic" mode="soft-light"/></filter>
+  </defs>
+  <rect width="1800" height="1200" fill="url(#bg)"/>
+  <path d="M0 290L530 470V1200H0V290Z" fill="#292A28" fill-opacity=".88"/>
+  <path d="M1800 0L1030 300V1200H1800V0Z" fill="#D9C3A4" fill-opacity=".58"/>
+  <path d="M530 470L1030 300V1200H530V470Z" fill="#625B50" fill-opacity=".9"/>
+  <path d="M785 380V1200" stroke="#F1E5D1" stroke-opacity=".5" stroke-width="5"/>
+  <circle cx="785" cy="760" r="74" fill="#FF6B35"/>
+  <rect width="1800" height="1200" filter="url(#grain)" opacity=".12"/>
+</svg>

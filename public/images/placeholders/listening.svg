@@ -1,0 +1,15 @@
+<svg width="1800" height="1200" viewBox="0 0 1800 1200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="bg" cx="0" cy="0" r="1" gradientTransform="translate(810 560) rotate(26) scale(1120 940)">
+      <stop stop-color="#73846C"/><stop offset=".5" stop-color="#29352F"/><stop offset="1" stop-color="#101512"/>
+    </radialGradient>
+    <filter id="grain"><feTurbulence baseFrequency=".75" numOctaves="4" seed="21"/><feBlend in="SourceGraphic" mode="overlay"/></filter>
+  </defs>
+  <rect width="1800" height="1200" fill="url(#bg)"/>
+  <g fill="none" stroke="#DCE8D2" stroke-opacity=".42">
+    <path d="M-100 590C180 250 370 940 670 590C960 250 1150 940 1450 590C1600 410 1720 500 1900 720" stroke-width="18"/>
+    <path d="M-100 590C180 350 370 830 670 590C960 350 1150 830 1450 590C1600 480 1720 540 1900 670" stroke-width="4"/>
+  </g>
+  <circle cx="1450" cy="590" r="22" fill="#D6FF53"/>
+  <rect width="1800" height="1200" filter="url(#grain)" opacity=".1"/>
+</svg>

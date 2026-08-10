@@ -1,0 +1,38 @@
+.ring {
+  animation: circular-gallery-rotation var(--circular-gallery-duration, 120s)
+    linear infinite;
+}
+
+.image {
+  transition: transform 220ms ease;
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .gallery:has(.face:hover) .ring {
+    animation-play-state: paused;
+  }
+
+  .face:hover .image {
+    transform: scale(1.025);
+  }
+}
+
+@keyframes circular-gallery-rotation {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ring {
+    animation: none;
+  }
+
+  .image {
+    transition: none;
+  }
+}
